@@ -1,0 +1,119 @@
+body {
+    background-image: url('img/b-prac.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Aldrich;
+    src: url(fonts/Aldrich-Regular.ttf);
+}
+
+@font-face {
+    font-family: Michroma;
+    src: url(fonts/Michroma-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+.parent {
+    
+    padding: 20px 40px;      
+    overflow: hidden;
+    background-color: rgb(20, 186, 252);
+}
+
+
+#Site {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #111;
+}
+
+
+.nav {
+    float: right;
+}
+
+
+.nav a {
+    display: inline-block;   
+    margin-left: 30px;       
+    color: #333;
+    font-size: 20px;
+    font-family: "Aldrich";
+}
+
+
+.nav a.active {
+    color: #0066ff;
+    border-bottom: 2px solid #0066ff;
+    padding-bottom: 4px;
+}
+
+.background, #text-start {
+    border: 3px solid darkblue;
+    border-radius: 12px;
+}
+
+.background {
+    height: 250px;
+    width: 100%;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    
+}
+
+.div1 {
+    padding-left: 25px;
+}
+
+#welcome {
+    font-family: "Aldrich";
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 30px;
+}
+
+#welcome2 {
+    font-weight: bold;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-size: 15px;
+    color: darkblue;
+}
+
+#text-start {
+    color: darkblue;
+    background-color: rgb(23, 240, 255);
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+}
+
+#paimon {
+    width: 40%; 
+    height: 200px;
+    padding-top: 40px;  
+}
+

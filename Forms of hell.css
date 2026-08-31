@@ -1,0 +1,89 @@
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Aldrich";
+    src: url(fonts/Aldrich-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Michroma";
+    src: url(fonts/Michroma-Regular.ttf);
+}
+
+.textbox {
+    width: 30vh;
+    height: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div3 {
+    background-color: rgb(243, 18, 108);
+    padding-bottom: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    border: 3px solid darkblue;
+}
+
+
+
+#user {
+    font-family: "Aldrich";
+    color: darkblue;
+    font-size: 20px;
+    display: flex !important;
+    justify-content: center;
+    
+}
+
+#username {
+    border-radius: 12px;
+    border: 3px solid darkcyan;
+    background-color: aquamarine;
+}
+
+#pass {
+    font-family: "Aldrich";
+    color: darkblue;
+    font-size: 20px;
+    display: block;
+    justify-self: center;
+}
+
+#password {
+    border-radius: 12px;
+    border: 3px solid darkcyan;
+    background-color: aquamarine;
+}
+
+#mail {
+    font-family: "Michroma";
+    font-weight: bold;
+    color: #021d27;
+    font-size: 20px;
+    display: block;
+    justify-self: center;
+}
+
+#email {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(107, 197, 29);
+    background-color: rgb(189, 254, 66);
+}
+
+#phone {
+    font-family: "Aldrich";
+    font-weight: bold;
+        
+}

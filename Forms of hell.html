@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Forms of hell.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html" title="Goes to main section">Click me to go back</a>
+<form action="Forms of hell.html" method="POST">
+    <div id="div3">
+    <label id="user" style="color: #e1faee;" for="username">Username</label>
+    <input class="textbox" type="text" id="username" minlength="8" maxlength="16" placeholder="Enter username here" required><br>
+
+    <label id="pass" style="color: #e1faee;" for="password" >Password</label>
+    <input class="textbox" type="password" id="password" placeholder="Enter password here" minlength="8" maxlength="16" required>
+    </div>
+    <br>
+    <label id="mail" for="email">Email</label>
+    <input class="textbox" type="email" id="email" required placeholder="xxx@gmail.com">  
+
+    <br><hr>
+    <br>
+    <div class="textbox" id="phone">
+    <label id="phone" for="phone">Phone Number:</label>
+    <input type="tel" id="phone" placeholder="63+" pattern="[0-9]" maxlength="11" required>
+    </div>
+    <br><hr>
+    <label for="bday">Birthdate:</label>
+    <input type="date" id="bday">
+    <br><hr>
+    <label for="quantity">Item Quantity:</label>
+    <input type="number" id="quantity" minlength="0" maxlength="99" value="1">
+    <br><hr>
+
+    <h4>Status?</h4>
+    <input type="radio" id="single" name="title">
+    <label for="single">Single.</label>
+    
+    <br>
+    <input type="radio" id="married" name="title">
+    <label for="married">Married.</label>
+    <br>
+    <input type="radio" id="preferredNot" name="title">
+    <label for="preferredNot">Preferred Not to tell.</label>
+    <br><hr>
+
+    <label for="Payment">Select Payment method:</label>
+    <select id="Payment">
+        <option value="Paypal">Paypal</option>
+        <option value="Gcash">Gcash</option>
+        <option value="Google Store">Google Store</option>
+    </select>
+    <br><hr>
+
+    <label for="Checker">Check if you're ok:</label>
+    <input type="checkbox" id="Checker">
+    <br><hr>
+    
+    <label for="comment">Give us feedback:</label>
+    <textarea id="comment" rows="3" cols="25" ></textarea>
+    <br><hr>
+
+    <label for="file"> File:</label>
+    <input type="file" id="file>" accept="image/png, image/jpeg">
+
+
+    <br><br>
+    <input type="reset"><br>
+    <input type="submit">
+</form>
+</body>
+</html>
