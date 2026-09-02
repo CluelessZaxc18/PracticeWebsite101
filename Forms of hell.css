@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: "Aldrich";
     src: url(fonts/Aldrich-Regular.ttf);
@@ -15,8 +19,32 @@ body {
     src: url(fonts/Michroma-Regular.ttf);
 }
 
+.div-nav {
+    background-color: rgb(37, 255, 186);
+    padding: 25px;
+    overflow: hidden;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav a:hover {
+    background-color: rgb(15, 112, 70);    
+}
+
+
+.nav a{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white
+}
+
+
 .textbox {
-    width: 30vh;
+    width: 30vh;    
     height: 5vh;
     display: block;
     margin-left: auto;
@@ -66,13 +94,20 @@ body {
     background-color: aquamarine;
 }
 
+.mail-phone-grid {
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: gray;
+}
+
 #mail {
     font-family: "Michroma";
     font-weight: bold;
     color: #021d27;
     font-size: 20px;
-    display: block;
-    justify-self: center;
 }
 
 #email {
@@ -80,10 +115,4 @@ body {
     border-style: solid;
     border-color: rgb(107, 197, 29);
     background-color: rgb(189, 254, 66);
-}
-
-#phone {
-    font-family: "Aldrich";
-    font-weight: bold;
-        
 }

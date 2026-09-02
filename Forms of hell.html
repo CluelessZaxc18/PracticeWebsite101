@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="index.html" title="Goes to main section">Click me to go back</a>
+    <header class="div-nav">
+    
+                <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="practice101.html">Profile</a>
+                </nav>
+    </header>
+
 <form action="Forms of hell.html" method="POST">
     <div id="div3">
     <label id="user" style="color: #e1faee;" for="username">Username</label>
@@ -17,15 +24,18 @@
     <input class="textbox" type="password" id="password" placeholder="Enter password here" minlength="8" maxlength="16" required>
     </div>
     <br>
+<div class="mail-phone-grid">
+    
+    <div class="mail-grid">
     <label id="mail" for="email">Email</label>
     <input class="textbox" type="email" id="email" required placeholder="xxx@gmail.com">  
-
-    <br><hr>
-    <br>
-    <div class="textbox" id="phone">
-    <label id="phone" for="phone">Phone Number:</label>
-    <input type="tel" id="phone" placeholder="63+" pattern="[0-9]" maxlength="11" required>
     </div>
+    <!-- Fixed HTML -->
+    <div class="phone-group">
+    <label for="phone-input">Phone Number:</label>
+    <input type="tel" id="phone-input" placeholder="+63" pattern="[0-9]+" maxlength="11" required>
+    </div>
+</div>
     <br><hr>
     <label for="bday">Birthdate:</label>
     <input type="date" id="bday">
