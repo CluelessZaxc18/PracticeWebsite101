@@ -1,5 +1,5 @@
 body {
-    background-image: url('img/b-prac.png');
+    background-image: url('img/clouds-bg.png');
     background-attachment: fixed;
     background-size: cover;
     background-size: 100% 100%;
@@ -21,6 +21,15 @@ body {
 
 a {
     text-decoration: none;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .parent {
@@ -70,6 +79,7 @@ a {
     background-color: skyblue;
     display: grid;
     grid-template-columns: 60% 40%;
+    overflow: hidden;
     
 }
 
@@ -117,3 +127,56 @@ a {
     padding-top: 40px;  
 }
 
+
+.grid-container {
+    height: 250px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 20px;
+    overflow: hidden;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 25px;
+    border-radius: 8px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+    box-shadow: none;   
+}
+
+.feature1 {
+    padding-top: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    box-shadow: black 1px 1px 8px;
+}
+
+.icon1 {
+    height: 50px;
+    width: 50px;
+
+}
+
+.icon2 {
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icon3 {
+    background-color: rgb(42, 163, 31);
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.feature1:hover {
+    background-color: aquamarine;
+}
