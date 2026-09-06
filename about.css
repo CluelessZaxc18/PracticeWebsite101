@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('img/clouds-bg.png');
+
+}
+
+@font-face {
+    font-family: Aldrich;
+    src: url(fonts/Aldrich-Regular.ttf);
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #33efd9, #0b76af)
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Site {
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links a {
+    padding-right: 20px;
+    font-family: "Aldrich";
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    background-color: aquamarine;
+    display: inline-block;
+}

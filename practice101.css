@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-size: 100% 100%;
+    margin: 0;
 }
 
 * {
@@ -36,7 +37,7 @@ h6 {
     
     padding: 20px 40px;      
     overflow: hidden;
-    background-color: rgb(20, 186, 252);
+    background: linear-gradient(135deg, #33efd9, #0b76af)
 }
 
 
@@ -50,8 +51,12 @@ h6 {
 
 .nav {
     float: right;
+
 }
 
+.nav a:hover {
+    background-color: lightgreen;
+}
 
 .nav a {
     display: inline-block;   
@@ -76,7 +81,7 @@ h6 {
 .background {
     height: 250px;
     width: 100%;
-    background-color: skyblue;
+    background: linear-gradient(135deg, #32daff, #2c33c6);
     display: grid;
     grid-template-columns: 60% 40%;
     overflow: hidden;
@@ -179,4 +184,12 @@ h6 {
 
 .feature1:hover {
     background-color: aquamarine;
+}
+
+.footer-contain {
+
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+    
 }
