@@ -44,6 +44,24 @@ body {
     margin-top: 5px;
     border: 2px solid greenyellow;
     border-radius: 6px;
+    transition: transform 0.2s ease, box-shadow 0.2 ease;
+    transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), 
+                box-shadow 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.text-input:focus {
+    transform: scale(1.03);
+    box-shadow: 0 0 8px rgba(0, 100, 255, 0.6);
+    outline: none;
+}
+
+.text-input::placeholder {
+    transition: opacity 0.25s ease;
+    opacity: 1;
+}
+
+.text-input:focus::placeholder {
+    opacity: 0;
 }
 
 #c-submit {

@@ -76,6 +76,10 @@ h6 {
     padding-bottom: 4px;
 }
 
+#Main {
+    text-decoration: underline;
+}
+
 .background, #text-start {
     border: 3px solid darkblue;
     border-radius: 12px;

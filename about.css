@@ -5,10 +5,11 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('img/clouds-bg.png');
     background-size: cover;
-
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -47,6 +48,7 @@ p {
     border-bottom: 2px solid rgb(8, 8, 113);
     box-shadow: 2px 2px 6px;
     padding: 15px;
+    width: auto;
 }
 
 .site-header {
@@ -73,7 +75,7 @@ p {
     text-decoration: none;
 }
 .nav-links a:hover {
-    background-color: aquamarine;
+    background-color: #25c1e4;
 }
 
 .Description {
@@ -82,15 +84,35 @@ p {
 }
 
 .grid-about {
-    margin-top: -50px;
-    height: 280x;
-    width: 100%;
+    margin: 0 auto;
+    margin-top: -20px;
+    height: 70%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border: 3px solid darkblue;
     overflow: hidden;
+    background: linear-gradient(135deg, #22c0ff, #072d78);
+    box-shadow: 2px 2px 6px;
 }
 
 .contains {
     padding: 30px;
+}
+
+#img-section2 {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 280px;
+}
+
+.footer {
+    background: linear-gradient(135Deg, blue, darkblue);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: auto;
+    margin: 0 auto;
 }
