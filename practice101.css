@@ -37,15 +37,18 @@ h6 {
     
     padding: 20px 40px;      
     overflow: hidden;
-    background: linear-gradient(135deg, #33efd9, #0b76af)
+    background: linear-gradient(135deg, #33efd9, #0b76af);
+    border-bottom: 2px solid rgb(8, 8, 113);
+    box-shadow: 2px 2px 6px;
 }
 
 
 #Site {
     float: left;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: #111;
+    font-family: "Michroma";
 }
 
 

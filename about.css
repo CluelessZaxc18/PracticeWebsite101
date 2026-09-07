@@ -7,7 +7,20 @@
 body {
     height: 100vh;
     background-image: url('img/clouds-bg.png');
+    background-size: cover;
 
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Fcute";
+}
+
+
+p {
+    font-size: 20px;
+    font-family: "Fcute";
 }
 
 @font-face {
@@ -15,11 +28,25 @@ body {
     src: url(fonts/Aldrich-Regular.ttf);
 }
 
+@font-face {
+    font-family: Michroma;
+    src: url(fonts/Michroma-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fcute;
+    src: url(fonts/Sniglet-Regular.ttf
+    );
+}
+
 .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(135deg, #33efd9, #0b76af)
+    background: linear-gradient(135deg, #33efd9, #0b76af);
+    border-bottom: 2px solid rgb(8, 8, 113);
+    box-shadow: 2px 2px 6px;
+    padding: 15px;
 }
 
 .site-header {
@@ -29,8 +56,10 @@ body {
 }
 
 .Site {
-    font-size: 45px;
+    font-size: 25px;
     margin-left: 20px;
+    font-family: "Michroma";
+    font-weight: bold;
 }
 
 .nav-links {
@@ -38,12 +67,30 @@ body {
 }
 
 .nav-links a {
-    padding-right: 20px;
+    padding: 20px;
     font-family: "Aldrich";
     font-size: 20px;
     text-decoration: none;
 }
 .nav-links a:hover {
     background-color: aquamarine;
-    display: inline-block;
+}
+
+.Description {
+    padding: 45px;
+
+}
+
+.grid-about {
+    margin-top: -50px;
+    height: 280x;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 3px solid darkblue;
+    overflow: hidden;
+}
+
+.contains {
+    padding: 30px;
 }
